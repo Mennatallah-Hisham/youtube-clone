@@ -1,0 +1,23 @@
+
+h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin:2rem 0;
+    margin-left:1rem;
+}
+h1 span{
+    color:red;
+}
+
+@media (min-width:768px){
+
+    .feedGrid{
+        display:grid;
+        grid-template-columns: 0.2fr 2fr;
+        column-gap: 2rem;
+      
+        max-width: 145rem;
+        margin-inline: auto;
+    }
+  
+}

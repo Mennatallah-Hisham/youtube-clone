@@ -1,0 +1,40 @@
+.videoCard{
+    width:31rem;
+    background-color: rgb(46, 45, 45);
+    display: inline-block;
+    /* box-shadow: rgb(46, 45, 45) 0px 2px 8px 3px; */
+  align-self: stretch;
+
+  
+    
+}
+
+.videoCard div{
+    padding:1rem 2rem;
+
+
+
+}
+.videoCard .title{
+    font-size: 1.6rem;
+    margin:0.5rem 0;
+}
+
+.videoCard img{
+    max-width: 100%;
+}
+
+@media (min-width:547px) {
+    .videoCard{
+        width:25rem;
+       
+        
+    } 
+}
+ @media (min-width:900px) {
+    .videoCard{
+        width:28em;
+       
+        
+    } 
+}

@@ -1,0 +1,19 @@
+.nav{
+
+    padding:1rem;
+ 
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logo{
+    height: 3rem;
+}
+
+@media (min-width:44em){
+    .nav{
+     
+        grid-template-columns: 23rem 1fr;
+    }
+    
+} 

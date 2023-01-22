@@ -1,0 +1,25 @@
+.channelCard{
+    width:28rem;
+  
+    margin:-15rem auto 5rem auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.channelCard img{
+max-width: 100%;
+border-radius: 50%;
+}
+
+.channelCard  h1{
+    text-align: center;
+}
+.channelCard p{
+font-weight: 600;
+font-size: 1.6rem;
+margin-top:-0.8rem;
+text-align: center;
+}
